@@ -1,0 +1,15 @@
+/Build/*.wasm.unityweb
+  Content-Type: application/wasm
+  Content-Encoding: br
+
+/Build/*.js.unityweb
+  Content-Type: application/javascript
+  Content-Encoding: br
+
+/Build/*.data.unityweb
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
